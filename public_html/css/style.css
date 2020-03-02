@@ -1,0 +1,18 @@
+body{background-color:#5e3580;color:rgb(205,220,57);}
+h1{font-size:120px;}
+#arabicParagraph{color:green;}
+.englishParagraphs{color:red;}
+img{border:solid 12px pink;padding:10px;}
+a{color:white;text-decoration:none;}
+table{background-color:orange;margin-bottom:200px;margin-top:300px;color:blue;}
+#leftImage{float:left;}
+#rightImage{float:right;}
+
+ul,ol
+{
+border:10px dashed white;
+width:50%;
+}
+
+
+/* End of file */

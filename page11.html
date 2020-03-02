@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Page eleven</title>
+<script src='jquery-3.4.1.min.js'></script>
+<script>
+// jQuery Syntax
+//jQuery('selector').function();
+//$('selector').function();
+// show()
+// hide()
+// toggle()
+// remove()
+// css()
+// fadeIn()
+// fadeOut()
+// addClass()
+// removeClass()
+</script>
+<style>
+.web{font-size:28px;color:blue;border:1px solid green;}
+
+button
+{
+font-size:1.5em;
+color:white;
+background-color:purple;
+border:1px solid yellow;
+border-radius:5px;
+}
+</style>
+</head>
+<body>
+<div  id='aub' class='advanced'>hello</div>
+<div id='wfp'>How are you?</div>
+<div>
+<button  onclick='jQuery("#aub,#wfp").hide();'>اخفاء AUB + wfp</button>
+<button  onclick='jQuery("#aub").remove();'>حذف AUB</button>
+<button  onclick='jQuery("#aub").show();'>اظهار AUB</button>
+<button  onclick='jQuery("#aub").show(3000);'>اظهار AUB خلال 3 ثواني</button>
+<button  onclick='jQuery("#aub").show("slow");'>اظهار AUB بطيئ</button>
+<button  onclick='jQuery("#aub").toggle();'>اظهار/اخفاء</button>
+<button  onclick='jQuery("#aub").css("color","green");'>تغيير لون الخط</button>
+<button  onclick='jQuery("#aub").fadeIn("slow");'>اظهار تدريجي</button>
+<button  onclick='jQuery("#aub").fadeOut("slow");'>اخفاء تدريجي</button>
+<button  onclick='jQuery("#aub").css("backgroundColor","orange");'>تغيير لون الخلفية</button>
+<button  onclick='jQuery("#aub").addClass("web");'>إضافة إسم كلاس web</button>
+<button  onclick='jQuery("#aub").removeClass("web");'>حذف اسم كلاس web</button>
+<button  onclick='jQuery("#aub").removeClass();'>حذف كل اسماء الclass</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html><head><title>Page Three</title>
+</head>
+<body>
+<form action="" method="">
+<label>First Name:</label>    
+<input type='text' name='firstName' id='firstName' placeholder='Enter your first name here' >
+<br>
+<input type='text' size='55' name="" id="" placeholder='Example of readonly input here' readonly>
+<br>
+<input type='text'  size='75' name="" id="" placeholder='Example of disabled input here' disabled>
+<br><br>
+<label>Last Name:</label>  
+<input type='text'  name='lastName'  id='lastName'  placeholder='Enter your last name here'>
+<br><br>    
+<label>Password:</label>     <input  type='password'  id='pass'   name='pass'>
+<br><br>   
+<label>Email address:</label>    <input type='email'  id='email'  name='email' placeholder='Please enter your email address'>
+<br><br>  
+<label>Phone number:</label>   <input  type='tel' maxlength='10' name='tel' id='tel'>
+<br><br>  
+<label>Years of experience (between 1 and 10):</label>   
+<input  type='number'   min='1'  max='10'  name='exp'   id='exp'>
+<br><br>  
+<label>D.O.B:</label>    <input  type='date'  name='dob'  id='dob'>
+<br><br>  
+<label>Gender:</label>   
+<input id='test' type='radio' name='gender'  value='M' >Male
+<input type='radio'  name='gender'   value='F'  checked>Female
+<br><br>
+<label>Colors:</label>
+<input type='checkbox' name='colors' value='red'>Rouge
+<input type='checkbox' name='colors' value='black'>Noir
+<input type='checkbox' name='colors' value='orange'>Orange
+<input type='checkbox' name='colors' value='blue'  checked>Bleu
+<br><br>   
+<label>Nationality*:</label>   
+<select  name='nationality'  id='nationality'  required  multiple>
+<option value=''>Please choose</option> 
+<option  value='lb'>Lebanese</option>  
+<option  value='sy'>Syrian</option>
+<option  value='ae'>UAE</option>
+</select> 
+<br><br>
+<button id='testBtn'>Show  details </button>
+<input type='button' name='button2' id='button2' value='click here to go'>
+<br><br>
+<label>Your message</label>
+<br><textarea name='message'  id='message' rows='10' cols='50'></textarea>
+<br><br> 
+<label>Upload images: </label>
+<input type="file" name="img" multiple>
+<br><br> 
+<input type="hidden" id="hidden_info" name="hidden_info">
+<input type='submit' value='Register'>  
+</form>   </body>   </html>

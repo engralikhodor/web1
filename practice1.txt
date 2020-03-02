@@ -1,0 +1,27 @@
+1. Build a new project named "web1" on your desktop.
+2. Create the index.html page with title "New Project ".
+3. Create the style.css file in a CSS folder.
+4. Link the HTML page to this CSS stylesheet.
+5. In the CSS file we want:
+- the background color of the body is #5e3580 with the font color is 205,220,57 using RGB.
+- the h1 font size is 120px.
+- Give a green color to the Arabic texts and Red for English texts.
+- All images have a solid border with width of 12px and pink color. 
+- All images have a 10px of space between the content and the border.
+- The links are white and remove the underline.
+- The table background is orange, text are blue, with 200px of space of the bottom and 300px of the top.
+- The ul and ol have a dashed white border with 10px of depth.
+- The ul and ol have the half of width of their container. 
+- Add "End of file" as a comment at the end of this file.
+6. In the HTML page add:
+- A Heading1 containing "Hello World!"
+- An image to the left and another one to the right (that are located in the imgs folder).
+- A table containing 3 columns Name,Address,Email then fill in 3 rows in this table, with a caption.
+- A paragraph containing an Arabic text, with id "arabicParagraph".
+- Two paragraphs containing English texts, with class "englishParagraphs"
+- A link to the website sho8ol.com that will open in a new tab.
+- All the body elements should be under one big division with id = "content".
+- The images should be contained in one division with id = "imagesDiv".
+- A new ordered list containing 5 students names.
+- A new unordered list containing 3 clubs names.
+- Add "End of file" as a comment at the end of this file.

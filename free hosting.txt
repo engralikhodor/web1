@@ -1,0 +1,42 @@
+1. Go to https://www.000webhost.com/
+2. Click on "Sign in".
+3. Log in with Google (or another option).
+4. Create a new website.
+get started > build an online store > beginner
+build your website easily
+select a template from E-commerce
+
+5.A) Go to "Tools" > "File Manager"
+6.A) Go to "public_html".
+7.A) Upload your files here. 
+
+If you want to upload a folder:
+1. Compress the folder (local).
+2. Upload this folder to public_html
+3. Extract the uploaded folder.
+4. Be sure that all your files are directly located in public_html
+5. Delete unsued files.
+
+5.B) Go to "My Sites" > Quick Actions > "Details" to get the FTP details.
+6.B) Download fileZilla https://filezilla-project.org  (client) and install it.
+7.B) Start fileZilla and fill in the FTP details of your website.
+7.B) Upload your files to "public_html".
+
+Host = files.000webhost.com
+Username = lebanoncourses2
+password = @@@000@@@
+port = 21
+
+
+https://lebanoncourses.000webhostapp.com/
+https://lebanoncourses2.000webhostapp.com/
+https://onlinestore654321.000webhostapp.com/
+
+khodoralistore.000webhostapp.com
+m6a@YkfrWE@oXt(o((oe
+
+https://khodorali123.000webhostapp.com/
+khodorali123
+
+To delete your website:
+My sites > manage website > website settings > general > delete website

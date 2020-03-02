@@ -1,0 +1,78 @@
+﻿<!doctype html>
+<html>
+<head>
+<script>
+function  myFunction() {
+alert('Hello I am your new function');
+}
+
+function test() {
+alert('how are you?');
+}
+
+function test2(age){
+alert(age);
+}
+
+function test3(name,age,hobby)
+{
+alert('Hello '+name+' you are '+age+' years old and you like '+hobby);
+}
+
+function f0(name,arrival,leaving)
+{
+var duration=leaving-arrival;
+alert(name+' you have passed '+duration+' years in Lebanon');
+}
+
+function f1(a,b)
+{
+var c = a*b;
+alert(a+' multiplied by '+b+' equal to '+c);
+}
+
+function f2(firstName,lastName)
+{
+alert(firstName+' *** '+lastName);
+}
+
+function f3(year_of_birth){
+var  age = 2025 - year_of_birth;
+alert('Your age in 2025 will be '+age);
+}
+
+function f4(a,b,c){
+var result =(((a+b+c)/4)*5)-7;
+alert('Final result is '+ result);
+
+/* second method
+ var  d = a+b+c;
+ var  e= d/4;
+ var f= e*5;
+ var result= f-7;
+*/
+}
+
+function f10(salary,name)
+{
+var answer = salary*1500;
+alert('Hello '+name+' your salary is '+answer+' LL');
+}
+
+
+myFunction();//call the function
+test2(7);//call the function
+f2('ali','khodor');
+</script>
+</head>
+<body>
+<button  onclick="test();"> Button 1 </button>
+<button  onclick="test2(10);"> Button 2</button>
+<button  onclick="test3('ali',99,'football');">Button 3 </button>
+<button  onclick="f0('Ali',1999,2005);">F zero </button>
+<button  onclick="f1(7,3);">F one </button>
+<button onclick="f3(2000);">F three </button>
+<button onclick="f10(800,'Ahmad');">F ten </button>
+
+</body>
+</html>

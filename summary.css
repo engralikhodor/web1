@@ -1,0 +1,93 @@
+﻿body{font-size:24px;} /* this is a comment in CSS */
+
+table,td,th{border:4px solid blue;}
+
+#table1{border-collapse:collapse;}
+#table2{ float:right; border-spacing:20px;border-collapse:expand; }
+
+.advanced{
+width:50%;
+border:7px solid green; /* shorthand */
+/*
+border-width:7px;
+border-style:solid;
+border-color:green;
+*/
+border-radius:10px;
+padding:1px 5px 6px 0; /* shorthand */
+/*
+padding-top:1px;
+padding-right:5px;
+padding-bottom:6px;
+padding-left:0px;
+*/
+}
+
+#first_div{
+text-align:center;
+font-weight:bold;
+font-style:italic;
+text-decoration:underline;
+text-transform:capitalize; /* Hi How Are You? */
+
+/* text-decoration: none;  remove the underline */
+/* text-transform:uppercase;  ABC */
+/* text-transform:lowercase; abc */
+
+font-family:'Comic Sans MS';
+/*
+font-family:Arial;
+font-family:'Comic Sans MS',Arial,Verdana,Serif;
+*/
+line-height:2;
+letter-spacing:24px; /* H  E  L  L  O */
+}
+
+#second_div{
+margin-top:15px;
+margin-right:20px;
+margin-bottom:30px;
+margin-left:2px;
+/*margin:15px 20px 30px 2px;*/
+}
+
+#second_div  p {direction:rtl;}
+
+#third_div  ul{font-size:2em;}
+
+form  label{color:rgb(255,255,255);}
+
+#submit_btn{width:100px;}
+
+#fourth_div
+{
+background-image:url('https://fbnewsroomus.files.wordpress.com/2018/11/fb-hero-image-001.jpeg?w=960');
+background-size:cover;
+/*
+background-repeat:no-repeat;
+background-position:top;
+background-attachment:fixed;
+*/
+}
+
+#fifth_div{display:none;}
+
+/*  header{font-size:13px;} */ 
+footer{background-color:#9E9E9E;color:white;width:100%;float:left;text-align:center;}
+
+a{color:green;}
+a:hover{color:white;}
+a:visited{color:orange;}
+
+/* ipad pro */
+@media(max-width:1024px){
+body{background-color:green;}
+}
+
+/* mobile */
+@media(max-width:700px)
+{ 
+body{background-color:grey;}
+table{display:none;}
+ img{width:100%;} 
+}

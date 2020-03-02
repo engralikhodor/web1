@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src='jquery-3.4.1.min.js'></script>
+<script>
+function test(){
+$('body').css('backgroundColor','red');
+$('body').css('color','white');
+$('body').css('fontSize','40px');
+}
+
+function f2(){ console.log($('#abc').html()); }//get the html of this element
+
+function f3(){ $('#abc').html('<label>ali</label>'); }//set the html of this element
+
+function changeBodyFontSize() { $('body').css('fontSize','20px'); }
+
+function f4(){
+if($('#username').val()=='aub' && $('#pass').val()=='wfp'){alert('welcome!');}
+else{alert('Please try again!');}
+}
+
+function f5(){
+var A=$('#colors_list').val();//قراءة القيمة من اللائحة
+$('body').css('backgroundColor',A);//Aتغيير لون الخلفية على اساس ال
+}
+
+function f6(){
+$('#abc').fadeOut().delay(1000).fadeIn();//1000 milliseconds = 1 second
+}
+
+function f7(){  $('#abc p,#abc label').animate({marginLeft:'80px'});  }
+
+$(document).on('click','#last_button,#abc',function(){
+alert('x');
+});
+
+$(document).on('click','#image1',function(){
+alert('HALA madrid');
+});
+
+
+$(document).on('click','#testBtn',function(){
+var a=$('#firstName').val();//reading or handling the value of first name
+var b=$('#lastName').val();
+
+if(a=='' || b==''){//if one of two inputs is empty
+
+alert('Error.');
+
+if(a==''){$('#firstName').css('border','red 2px solid');}//if the first name is empty
+if(b==''){$('#lastName').css('border','red 2px solid');}//if the last name is empty
+
+}
+
+else{
+alert('Welcome '+a+' '+b);
+}//the user has filled BOTH inputs, no error.
+
+});
+</script>
+</head>
+<body>
+
+<div id='abc'>
+<p>Hello</p>
+<hr>
+<p>World</p>
+<br>
+<label> bye </label>
+</div>
+
+<button  onclick='test();'>call the test function</button>
+<button  onclick='f2();'>call f2</button>
+<button  onclick='f3();'>call f3</button>
+<form>
+<label>Username</label>
+<input   type='text'    id='username'    name='username'>
+<br>
+<label>Password</label>
+<input   type='password'    id='pass'    name='pass'>
+<br>
+<label>Background color</label>
+<select id='colors_list'>
+<option value='#'>Please choose</option>
+<option value='red'>أحمر</option>
+<option value='black'>أسود</option>
+<option value='white'>أبيض</option>
+<option value='orange'>برتقالي</option>
+</select>
+<br>
+<label>First Name</label>
+<input type="text" id="firstName" name="firstName" >
+<br>
+<label>Last Name</label>
+<input type="text" id="lastName" name="lastName" >
+</form>
+<button onclick='f4();'>GO</button>
+<button onclick='f5();'>change page background color</button>
+<button onclick='f6();'>delay</button>
+<button onclick='f7();'>animate</button>
+<button id="testBtn">TEST</button>
+<button id='last_button'>GO 2</button>
+<img id='image1' src='image2.jpg' alt='real madrid' title='real madrid'>
+</body>
+</html>

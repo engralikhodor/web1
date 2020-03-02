@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+
+<script>
+/*
+JS comparison operators
+> akbar
+< az8ar
+>= akbar aw yusawi
+<= az8ar aw yusawi
+== yusawi
+!= not equal (la yusawi)
+*/
+
+/*
+JS logical operators
+&&  and
+||  or
+!= logical not
+*/
+
+
+//conditional statement
+function f6(mark,average)
+{
+if(mark >= average) {  alert('Passed');}
+else{  alert('Failed');}//iza la2
+}//end f6
+
+
+function f7(color)
+{
+if(color=='Black'){alert('اسود');}
+else if(color=='Red'){alert('احمر');}
+else if(color=='Blue'){alert('ازرق');}
+else if(color=='Yellow'){alert('اصفر');}
+else{alert('لا اعلم');}
+}//end function f7
+
+function login(username,password)
+{
+if(username=='ali' && password=='khodor'){alert('OK');}
+else{alert('not OK');}
+}//end function login
+
+
+function f11(team){
+if(team=='Barcelona' || team=='Real Madrid'){alert('Spain');}
+else if(team=='Milan'){alert('Italy');}
+}//end function f11
+
+function f8(timeOne,timeTwo){
+//alert 'too much' iza aktar men 180 minutes
+var difference=(timeTwo-timeOne)*60;//converting from hours to minutes
+if(difference>180){alert('Too much because you have spent '+difference+' minutes');}
+}//end function f8
+
+function f9(name1,salary1,name2,salary2){
+if(salary2 > salary1){alert(name2);}
+else if(salary2==salary1){alert('Equal');}
+else{alert(name1);}
+}//end function f9
+
+f9('NAJI',1900,'ABBAS',2000);//call the function directly in the <head>
+
+
+function f10(age,hobby){
+if(age>21 && hobby=='Football'){alert('Senior Footballer');}
+}
+
+function f12(firstName,lastName){
+if(firstName != 'Ali' && lastName != 'Khodor')
+{console.log('This is a student');}
+}
+
+f12('Abbass','Ayoub');
+</script>
+
+</head>
+<body>
+<button onclick="f7('Red');">test</button>
+<button onclick="f7('White');">test 2</button>
+<button onclick="login('ibrahim','naser');">Login</button>
+<button onclick="f11('Real Madrid');">F11</button>
+<button onclick="f11('Barcelona');">F11</button>
+<button onclick="f8(5,9);">F8</button>
+<button onclick="f10(30,'Football');">Call f10</button>
+</body>
+</html>
